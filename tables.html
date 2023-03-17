@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Tables</title>
+</head>
+<col>
+    <table>
+        <colgroup id="colg">
+        <col span="odd">
+        <col id="colg2" span="1">
+        <col id="colg3" span="2">
+       
+        <tr>
+        <th colspan="6">Trainers</th>
+        </tr>
+        <tr>
+            <th colspan="2">FSD Trainer</th>
+            <th>Technical Trainer</th>
+            <th>Soft Skills Trainer</th>
+            <th>DS Trainer</th>
+            <th>Aptitude Trainer</th>
+        </tr>
+        <!-- <tr>
+        <th>Faculty</th>
+        </tr> -->
+        <tr>
+        <td rowspan="2">Aastha</td>
+        <td>Anita</td>
+        <td>Aditya</td>
+        <td>Aman</td>
+        <td>Balwinder</td>
+        <td>ABSDA</td>
+        </tr>
+        <td rowspan="2">Aastha</td>
+        <td>Anita</td>
+        <td>Aditya</td>
+        <td>Aman</td>
+        <td>Balwinder</td>
+        </tr>
+        <td>Aastha</td>
+        <td>Anita</td>
+        <td>Aditya</td>
+        <td>Aman</td>
+        <td>Balwinder</td>
+        </tr>
+        <!-- <th>Friends</th>
+        <tr>
+            <td>Sneha</td>
+            <td>Mansi</td>
+            <td>Anshul</td>
+            <td>Vivek</td>
+            <td>Rohini</td>
+        </tr> -->
+        
+    </table>
+</colgroup>
+</body>
+<style>
+    table,th,td{
+        width:80%;
+        border: 2px solid;
+        border-collapse:collapse; 
+        text-align: center;
+        /* padding: 3px; */
+     }
+    /* tr{
+        border: 9px solid yellow;
+        width: 1
+    } */
+    /* td{
+        border: 3px solid blue;
+        border-collapse: collapse;
+    } */
+    td:nth-child(odd){
+        background-color:yellow;
+    }
+    td:nth-child(even){
+        background-color:greenyellow
+    }
+    #colg{
+        background-color: aquamarine;
+
+    }
+    #colg2{
+        background-color: rgb(210, 210, 27);
+    }
+    #colg3{
+        background-color: palevioletred;
+    }
+</style>
+</html>
